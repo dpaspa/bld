@@ -1,0 +1,1 @@
+. b.sh -c /home/dpaspa/Dropbox/Business/Synertec/MPI.SMS/automation/code/config/config.xlsx -i /home/dpaspa/MEGA/Business/Synertec/MPI.SMS/automation/code/awlMaster -o /home/dpaspa/MEGA/Business/Synertec/MPI.SMS/automation/code/output -p $1

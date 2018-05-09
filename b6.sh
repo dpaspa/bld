@@ -24,9 +24,10 @@ createHeader "Import program management objects" $importFile
 #------------------------------------------------------------------------------#
 # Append the content AWL files to consolidate them into one import file:       #
 #------------------------------------------------------------------------------#
-addFile $outputPath/fbEventProcess.awl $importFile
-addFile $outputPath/fbEventSequence.awl $importFile
+addFile $outputPath/fcEventProcess.awl $importFile
+addFile $outputPath/fcEventSequence.awl $importFile
 addFile $outputPath/fbTimeSyncPLC.awl $importFile
 addFile $outputPath/fcLEDState.awl $importFile
 addFile $outputPath/fcTimeManagement.awl $importFile
-addFile $outputPath/obMain.awl $importFile
+addFile $outputPath/Main.awl $importFile
+addFile $outputPath/Startup.awl $importFile

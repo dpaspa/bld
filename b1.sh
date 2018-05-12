@@ -39,4 +39,3 @@ addFile $outputPath/fbRunTimer.awl $importFile
 addFile $outputPath/fcHMS2Time.awl $importFile
 addFile $outputPath/fcTime2HMS.awl $importFile
 addFile $outputPath/fcHMISFCSelect.awl $importFile
-addFile $outputPath/ifcHMISFCControl.awl $importFile

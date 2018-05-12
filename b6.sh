@@ -26,6 +26,7 @@ createHeader "Import program management objects" $importFile
 #------------------------------------------------------------------------------#
 addFile $outputPath/fcEventProcess.awl $importFile
 addFile $outputPath/fcEventSequence.awl $importFile
+addFile $outputPath/ifcHMISFCControl.awl $importFile
 addFile $outputPath/fbTimeSyncPLC.awl $importFile
 addFile $outputPath/fcLEDState.awl $importFile
 addFile $outputPath/fcTimeManagement.awl $importFile

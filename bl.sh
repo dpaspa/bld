@@ -49,7 +49,6 @@ else
     #--------------------------------------------------------------------------#
     python $csv2xlsx -i $outputPath/gVar.awl
     python $csv2xlsx -i $outputPath/gTag.awl
-    python $csv2xlsx -i $outputPath/gStateTimer.awl
 
     #--------------------------------------------------------------------------#
     # Make one giant file to rebuild the entire project:                       #

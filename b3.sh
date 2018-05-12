@@ -41,6 +41,7 @@ addFile $inputPath/sfc/fbPH_EMX1_SETUP_FILTER.AWL $importFile
 addFile $inputPath/sfc/fbPH_EMX2_ISOLATE.AWL $importFile
 addFile $inputPath/sfc/fbPH_EMX2_SETUP.AWL $importFile
 addFile $inputPath/sfc/fbPH_EMX4_SIP_PULSE.AWL $importFile
+addFile $inputPath/sfc/fbPH_EMX6_FILTER_BLEED.AWL $importFile
 addFile $inputPath/sfc/fbPH_EMX6_SETUP_CIP.AWL $importFile
 addFile $inputPath/sfc/fbPH_EMX6_SETUP_SIP.AWL $importFile
 
@@ -59,6 +60,7 @@ addFile $outputPath/fbEMT1.awl $importFile
 addFile $outputPath/fbEMV1.awl $importFile
 addFile $outputPath/fbEMV2.awl $importFile
 addFile $outputPath/fbEMX1.awl $importFile
+addFile $outputPath/fbEMX2.awl $importFile
 addFile $outputPath/fbEMX4.awl $importFile
 addFile $outputPath/fbEMX5.awl $importFile
 addFile $outputPath/fbEMX6.awl $importFile
@@ -78,12 +80,17 @@ addFile $outputPath/ifbEMT1.awl $importFile
 addFile $outputPath/ifbEMV1.awl $importFile
 addFile $outputPath/ifbEMV2.awl $importFile
 addFile $outputPath/ifbEMX1.awl $importFile
+addFile $outputPath/ifbEMX2.awl $importFile
 addFile $outputPath/ifbEMX4.awl $importFile
 addFile $outputPath/ifbEMX5.awl $importFile
 addFile $outputPath/ifbEMX6.awl $importFile
 
 #------------------------------------------------------------------------------#
-# Append the instance DBs and the calls from OB1:                              #
+# Append the instance DBs:                                                     #
 #------------------------------------------------------------------------------#
 addFile $outputPath/idbEMs.awl $importFile
+
+#------------------------------------------------------------------------------#
+# Append the calls from OB1:                                                   #
+#------------------------------------------------------------------------------#
 addFile $outputPath/fcCallEMs.awl $importFile

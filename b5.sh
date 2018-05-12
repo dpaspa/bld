@@ -44,7 +44,11 @@ addFile $outputPath/ifbPCMX.awl $importFile
 addFile $outputPath/ifbPCSY.awl $importFile
 
 #------------------------------------------------------------------------------#
-# Append the instance DBs and the calls from OB1:                              #
+# Append the instance DBs:                                                     #
 #------------------------------------------------------------------------------#
 addFile $outputPath/idbPCs.awl $importFile
+
+#------------------------------------------------------------------------------#
+# Append the calls from OB1:                                                   #
+#------------------------------------------------------------------------------#
 addFile $outputPath/fcCallPCs.awl $importFile

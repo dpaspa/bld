@@ -65,13 +65,12 @@ addFile $outputPath/ifbZSC1.awl $importFile
 addFile $outputPath/ifbZSC2.awl $importFile
 
 #------------------------------------------------------------------------------#
-# Append the CM instance DBs and the calls from OB1:                           #
+# Append the CM and interlock instance DBs:                                    #
 #------------------------------------------------------------------------------#
 addFile $outputPath/idbCMs.awl $importFile
-addFile $outputPath/fcCallCMs.awl $importFile
+addFile $outputPath/idbIL.awl $importFile
 
 #------------------------------------------------------------------------------#
-# Append the IL instance DBs and the calls from OB1:                           #
+# Append the CM calls from the Main OB:                                        #
 #------------------------------------------------------------------------------#
-addFile $outputPath/idbILs.awl $importFile
-addFile $outputPath/fcCallILs.awl $importFile
+addFile $outputPath/fcCallCMs.awl $importFile

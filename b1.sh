@@ -27,8 +27,6 @@ createHeader "Import base program objects" $importFile
 addFile $outputPath/udtMaster.awl $importFile
 addFile $outputPath/dbMaster.awl $importFile
 addFile $outputPath/dbCONST.awl $importFile
-addFile $outputPath/dbEVENTProcess.awl $importFile
-addFile $outputPath/dbEVENTSequence.awl $importFile
 addFile $outputPath/fcAnalog.awl $importFile
 addFile $outputPath/fcHygiene.awl $importFile
 addFile $outputPath/fcModeCmd.awl $importFile

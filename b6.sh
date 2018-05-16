@@ -24,6 +24,10 @@ createHeader "Import program management objects" $importFile
 #------------------------------------------------------------------------------#
 # Append the content AWL files to consolidate them into one import file:       #
 #------------------------------------------------------------------------------#
+addFile $outputPath/dbEVENTPrompt.awl $importFile
+addFile $outputPath/dbEVENTLogMsg.awl $importFile
+addFile $outputPath/dbEVENTLogReal.awl $importFile
+addFile $outputPath/dbEVENTLogTime.awl $importFile
 addFile $outputPath/fcEventProcess.awl $importFile
 addFile $outputPath/fcEventSequence.awl $importFile
 addFile $outputPath/ifcHMISFCControl.awl $importFile
